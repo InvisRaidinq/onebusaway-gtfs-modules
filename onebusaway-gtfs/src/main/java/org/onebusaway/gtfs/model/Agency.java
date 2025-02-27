@@ -47,6 +47,8 @@ public final class Agency extends IdentityBean<String> {
   @CsvField(optional = true)
   private String email;
 
+  private String noc;
+
   public Agency() {
 
   }
@@ -60,6 +62,7 @@ public final class Agency extends IdentityBean<String> {
     this.phone = a.phone;
     this.email = a.email;
     this.fareUrl = a.fareUrl;
+    this.noc = a.noc;
   }
 
   public String getId() {
@@ -124,6 +127,14 @@ public final class Agency extends IdentityBean<String> {
 
   public void setEmail(String email) {
 	this.email = email;
+  }
+
+  public String getNoc() {
+    return noc;
+  }
+
+  public void setNoc(String noc) {
+    this.noc = noc;
   }
 
   public String toString() {
