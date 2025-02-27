@@ -1,2 +1,0 @@
-location_group_id,location_group_name
-4230479,Aurburn Loop Stops

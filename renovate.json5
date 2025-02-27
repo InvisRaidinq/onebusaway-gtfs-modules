@@ -15,8 +15,6 @@
       matchPackageNames: [
         'org.mockito:mockito-core',
         'com.tngtech.archunit:archunit',
-        'org.apache.maven.plugins:maven-surefire-plugin',
-        'me.fabriciorby:maven-surefire-junit5-tree-reporter',
         'com.google.truth:truth',
         'org.jacoco:jacoco-maven-plugin',
         'org.apache.commons:commons-compress',
