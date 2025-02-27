@@ -3,7 +3,7 @@
 
   <groupId>org.onebusaway</groupId>
   <artifactId>onebusaway-gtfs-modules</artifactId>
-  <version>6.1.1-SNAPSHOT</version>
+  <version>private-deploy-1.0</version>
   <packaging>pom</packaging>
 
   <name>onebusaway-gtfs-modules</name>
