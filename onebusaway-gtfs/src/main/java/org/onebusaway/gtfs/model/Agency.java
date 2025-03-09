@@ -47,6 +47,9 @@ public final class Agency extends IdentityBean<String> {
   @CsvField(optional = true)
   private String email;
 
+  // This will exist 99% of the time, but we found a case where the Bee Network timetables didn't
+  // yet have a NOC associated with them
+  @CsvField(optional = true)
   private String noc;
 
   public Agency() {
